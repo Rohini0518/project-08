@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto';
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-position:  right bottom ;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+/* ----------navbar start--------- */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin:auto;
+}
+.nav-items{
+    display:flex;
+
+}
+.nav-item{
+    padding:3px 10px;
+}
+.signin-btn{
+border:none;
+padding:5px 25px;
+border-radius: 20px;
+background: linear-gradient(to right,#965cf2,#ff8adc);
+color:white;
+cursor:pointer;
+}
+
+
+/* ---------middle intro-section startss-------- */
+
+.intro-section{
+    display:flex;
+    width:90%;
+    margin: 0 auto;
+}
+
+
+
+/* ----------intro left side part starts-------- */
+
+.left-section{
+margin-top:8%;
+max-width: 500px;
+
+}
+.left-section h1{
+    font-size:4rem;
+    color:#3e4794;
+
+}
+.left-section h4{
+    font-size: 20px;
+    line-height: 30px;  
+    font-weight: 400;
+    color:#6c6c6c;
+}
+
+.learn-more-btn{
+    border:none;
+    padding:10px 25px;
+    border-radius: 20px;
+background: linear-gradient(to right,#965cf2,#ff8adc);
+color:white;
+font-weight: 600;
+font-size: 18px;
+margin-top:30px;
+}
+
+
+/* -------intro right images prt strt---------- */
+.imgs-div{
+   position:relative; 
+ margin-top:0px;   
+}
+
+img[src="./images/intro-img.svg" ]{
+position: relative;
+left: 90px;
+}
+
+.vector-img{
+position:absolute;
+top:60%;
+left:10%;
+}
+
+.vector-dot{
+    position:absolute;
+    top:60%;
+    left:18%;
+}
+
+
