@@ -75,6 +75,7 @@ margin-top:30px;
 
 
 /* -------intro right images prt strt---------- */
+
 .imgs-div{
    position:relative; 
  margin-top:0px;   
@@ -98,3 +99,86 @@ left:10%;
 }
 
 
+/* ------------------------------media queries------------------------------- */
+
+
+
+@media screen and (max-width: 550px) {
+
+    /* ----navbar----- */
+
+    nav{
+        display:flex;
+    }
+
+    .nav-items{
+        display:none;
+    }
+
+    .signin-btn{
+        padding:10px 25px;
+       
+        }
+  /* ----intro section---- */
+
+  .intro-section{
+    display:flex;    
+}
+
+
+.left-section{
+    position:absolute;
+    top:52%;
+    line-height: 20px;
+}
+
+    .left-section h1{
+        font-size:3rem;
+        color:#3e4794;
+    
+    }
+    .left-section h4{
+        font-size: 12px;
+        line-height: 20px;  
+        width:400px;
+    }
+
+   
+     img[src="./images/intro-img.svg" ]{
+        position: absolute;
+        left: 35px;
+        width:400px;
+        top:70px;
+        }
+
+        .vector-img{
+            display:none;
+            }
+            
+            .vector-dot{
+                display:none;
+            }
+
+
+}
+
+/* ----------media queries mid screen------------- */
+
+
+@media screen and (max-width: 900px) {
+
+    /* ----navbar----- */
+
+    .nav-items{
+        display:none;
+    }
+
+    
+.left-section{
+    position:absolute;
+    top:58%;
+    line-height: 20px;
+}
+
+
+}
